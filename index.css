@@ -73,11 +73,18 @@ body{
 	margin-top: 100px;
 }
 img{
-	width: 500px;
+	width: 400px;
 	border-radius: 8px;
 	border: 10px solid #3498db;
 	margin-left: 10%;
 }
 .container{
 	margin-top:140px;
+}
+#textbox{
+	margin-top: 20px;
+	font-family: sans-serif;
+	font-size: 20px;
+	background-color: rgba(255, 255, 255, .4);
+	border: 10px solid #3498db;
 }
