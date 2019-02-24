@@ -69,3 +69,6 @@ body{
 	position: relative;
 	bottom: 0px;
 }
+.h1{
+	line-height: inherit;
+}
