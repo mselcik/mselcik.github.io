@@ -63,7 +63,8 @@ body{
 }
 .row{
 	font-family:starTrekFont;
-	background:#72F4F9;
+	/*background:#72F4F9;*/
 	width:100%;
 	font-size: 60px;
+	backdrop-filter: blur(8px);
 }
