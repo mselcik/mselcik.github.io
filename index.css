@@ -10,7 +10,7 @@ body{
 	background-color: #ABFCFF;
 	background-size: cover;
 	background-repeat: no-repeat;
-
+	background-position: center center;
 }
 .box{
 	width: 300px;
