@@ -75,16 +75,25 @@ body{
 img{
 	width: 400px;
 	border-radius: 8px;
-	border: 10px solid #3498db;
+	border: 10px solid #0026B2;
 	margin-left: 10%;
+	float: left;
 }
-.container{
+.content{
 	margin-top:140px;
+	overflow: hidden;
 }
 #textbox{
 	margin-top: 20px;
 	font-family: sans-serif;
 	font-size: 20px;
-	background-color: rgba(255, 255, 255, .4);
-	border: 10px solid #3498db;
+	background-color: rgba(255, 255, 255, .7);
+	border: 10px solid #0026B2;
+	float: right;
+	width: 800px;
+	border-radius: 8px;
+	height: 300px;
+	margin-top: 0px;
+	margin-right: 10%;
+	text-align: center;
 }
