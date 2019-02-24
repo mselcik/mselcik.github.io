@@ -6,7 +6,9 @@ body{
 	margin:0;
 	padding:0;
 	font-family: sans-serif;
-	background: #ABFCFF
+	background-image: url("nyc.jpg");
+	background-color: #ABFCFF;
+	background-size: auto;
 }
 .box{
 	width: 300px;
@@ -62,5 +64,5 @@ body{
 	font-family:starTrekFont;
 	background:#72F4F9;
 	width:100%;
-	font-size: 30px;
+	font-size: 60px;
 }
