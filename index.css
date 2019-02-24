@@ -58,17 +58,9 @@ body{
 .box input[type = "submit"]:hover{
 	background:#2ecc71;
 }
-.div{
-	position: relative;
-}
 .row{
 	font-family:starTrekFont;
 	background:#72F4F9;
 	width:100%;
 	font-size: 30px;
-	position: relative;
-	bottom: 0px;
-}
-.h1{
-	line-height: inherit;
 }
