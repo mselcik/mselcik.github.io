@@ -1,99 +1,52 @@
-@font-face {
-  font-family: starTrekFont;
-  src: url(FINALOLD.TTF);
-}
 body{
-	margin:0;
-	padding:0;
-	font-family: sans-serif;
-	background-image: url("nyc3.jpg");
-	background-color: #ABFCFF;
-	background-size: cover fixed;
-	background-repeat: no-repeat;
+  margin 0;
+  padding: 0;
+  background: url("nyc3.jpg") no-repeat;
+  background-size: cover;
 }
-/*
 .box{
-	width: 300px;
-	padding: 40px;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	background: #191919;
-	text-align: center;
+  width:450px;
+  background: rgba(0,0,0,0.6);
+  padding: 40px;
+  text-align:center;
+  margin: auto;
+  margin-top: 5%;
+  color: white;
+  font-family: 'Century Gothic',sans-serif;
+}
+.box-img{
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
 }
 .box h1{
-	color:white;
-	text-transform:uppercase;
-	font-weight: 500;
+  font-size: 40px;
+  letter-spacing: 4px;
+  font-weight: 100;
 }
-.box input[type = "text"],.box input[type = "password"]{
-	border:0;
-	background:none;
-	display: block;
-	margin: 20px auto;
-	text-align: center;
-	border: 2px solid #3498db;
-	padding: 14px 10px;
-	width: 200px;
-	outline: none;
-	color: white;
-	border-radius: 24px;
-	transition: 0.25s;
+.box h5{
+  font-size: 20px;
+  letter-spacing: 3px;
+  font-weight: 100;
 }
-.box input[type = "text"]:focus,.box input[type = "password"]:focus{
-	width: 280px;
-	border-color: #2ecc71;
+.box p{
+  /*text-align: justify;*/
 }
-.box input[type = "submit"]{
-	border:0;
-	background:none;
-	display: block;
-	margin: 20px auto;
-	text-align: center;
-	border: 2px solid #2ecc71;
-	padding: 14px 40px;
-	outline: none;
-	color: white;
-	border-radius: 24px;
-	transition: 0.25s;
-	cursor: pointer;
+ul{
+  margin: 0;
+  padding: 0;
 }
-.box input[type = "submit"]:hover{
-	background:#2ecc71;
+.box li{
+  display: inline-block;
+  margin: 6px;
+  list-style: none;
 }
-*/
-.row{
-	font-family:starTrekFont;
-	/*background:#72F4F9;*/
-	width:100%;
-	font-size: 120px;
-	/*background-color: rgba(255, 255, 255, .4);*/
-	text-align: center;
-	margin-top: 100px;
+.box li a{
+  color:white;
+  text-decoration: none;
+  font-size: 60px;
+  transition: all ease-in-out 250ms;
 }
-img{
-	width: 400px;
-	border-radius: 8px;
-	border: 10px solid #0026B2;
-	margin-left: 10%;
-	float: left;
-}
-.content{
-	margin-top:140px;
-	overflow: hidden;
-}
-#textbox{
-	margin-top: 20px;
-	font-family: sans-serif;
-	font-size: 20px;
-	background-color: rgba(255, 255, 255, .7);
-	border: 10px solid #0026B2;
-	float: right;
-	width: 800px;
-	border-radius: 8px;
-	height: 300px;
-	margin-top: 0px;
-	margin-right: 10%;
-	text-align: center;
+.box li a:hover{
+  color:#b9b9b9;
 }
