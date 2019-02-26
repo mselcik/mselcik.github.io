@@ -51,8 +51,16 @@ nav li:hover{
 nav li:hover a{
   color:black;
 }
-nav li:active{
-  background: #EA3313;
+nav li.active{
+  background: rgba(255,255,255,0.6);
+  border-radius: 4px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 65px;
+  margin-right: 10px;
+}
+nav li.active a{
+  color:black;
 }
 .box{
   width:450px;
