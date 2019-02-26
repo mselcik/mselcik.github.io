@@ -52,7 +52,7 @@ nav li:hover a{
   color:black;
 }
 nav li:active{
-  background-color: #EA3313;
+  background: #EA3313;
 }
 .box{
   width:450px;
@@ -77,7 +77,7 @@ nav li:active{
 .box h5{
   font-size: 20px;
   letter-spacing: 3px;
-  font-weight: 100;
+  font-weight: 100;a
 }
 .box p{
   /*text-align: justify;*/
