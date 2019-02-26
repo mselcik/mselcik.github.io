@@ -42,7 +42,8 @@ nav ul li a{
   color: #FFFFFF;
   font-weight: bold;
   font-size: 20px;
-  font-family: sans-serif;;
+  font-family: sans-serif;
+  display: inline-block;
 }
 nav li:hover{
   background: rgba(255,255,255,0.6);
