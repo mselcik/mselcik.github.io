@@ -41,7 +41,8 @@ nav ul li a{
   font-family: sans-serif;;
 }
 nav li:hover{
-  background: rgba(255,255,255,0.6);
+  /*background: rgba(255,255,255,0.6);*/
+  background: #47AAFC;
   border-radius: 4px;
   padding-left: 10px;
   padding-right: 10px;
@@ -99,5 +100,5 @@ ul{
   transition: all ease-in-out 250ms;
 }
 .box li a:hover{
-  color:#b9b9b9;
+  color:#47AAFC;
 }
